@@ -1,0 +1,10 @@
+148M	/var/snap/docker/common/var-lib-docker/overlay2/14638103ec322321c5dc26eaab1391365aac07b2c3a3de57c872dfcee72a185e/diff/opt/CA/setup.bin
+129M	/var/lib/snapd/snaps/docker_2893.snap
+112M	/var/lib/snapd/snaps/lxd_24322.snap
+90M	/var/snap/docker/common/var-lib-docker/overlay2/14638103ec322321c5dc26eaab1391365aac07b2c3a3de57c872dfcee72a185e/diff/opt/CA/Client/Linux/CLIENT/RPM/ca-waae-common-11.3.6-919.i386.rpm
+82M	/snap/lxd/24322/bin/qemu-system-x86_64
+82M	/snap/docker/2893/bin/dockerd
+74M	/var/lib/snapd/snaps/core22_864.snap
+71M	/var/snap/docker/common/var-lib-docker/overlay2/14638103ec322321c5dc26eaab1391365aac07b2c3a3de57c872dfcee72a185e/diff/opt/CA/Client/Linux/CLIENT/PIF/ca-waae-jre-32.Linux.@pif
+69M	/var/snap/docker/common/var-lib-docker/overlay2/14638103ec322321c5dc26eaab1391365aac07b2c3a3de57c872dfcee72a185e/diff/opt/CA/Client/Linux/CLIENT/PIF/ca-waae-jre-64.Linux.@pif
+64M	/var/lib/snapd/snaps/core20_2015.snap

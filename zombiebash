@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Start a child process in the background
+sleep 60 &
+
+# Get the process ID of the child process
+child_pid=$!
+
+# Print the child process ID
+echo "Child PID: $child_pid"
+
+# Wait for a few seconds but do not reap the child
+sleep 40
+
+# Display the state of the child process
+# 'Z' stands for 'Zombie'
+ps -o pid,stat,cmd | grep $child_pid
+ps -e -o pid,stat | awk '$2=="Z" { print $1 }'
+# In a real scenario, to clean up the zombie, the parent would
+# typically call one of the 'wait' system calls to reap the child.
+# Uncomment the line below to reap the child process and prevent it from becoming a zombie.
+# wait $child_pid
